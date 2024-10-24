@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 20px;
+    border: solid 0.25px #f4f4f4;
+    border-bottom: 2px solid rgb(223, 217, 134);
+    border-right: 2px solid rgb(223, 217, 134);
+    margin: 5px;
+    box-shadow: 0px 5px 15px 5px #fbdcdc;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    top: 0;
+    width: 95%;
+    position: fixed;
+    background: rgba(255,255, 255, 0.1);
+   backdrop-filter: blur(90px);
+ color: rgb(223, 217, 134);
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    color:#c62a2a;
+ 
+}
+.logo img{
+    margin-top: -20px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-right: -46px;
+}
+
+.logo h1{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.option{
+ display: flex;
+ justify-content: space-between;
+
+
+}
+.option a h1{
+    margin-right: 30px;
+    color: rgb(223, 217, 134);
+}
+
+.body{
+    width: 200vh;
+    height: 100vh;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+width: 500px;
+height: 70vh;
+border: solid 2px rgb(247, 181, 203);
+border-radius:25px;
+
+}
+.card h1{
+    font-size: 60px;
+    color: palevioletred;
+    margin: 40px 0px 30px 160px;
+}
+.card input{
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px 0px 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+
+.card button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 30px 0px 20px 150px;
+    font-size: 20px;
+    background-color: white;
+}
+.card h2{
+    margin-left: 30px;
+    margin-bottom: -24px;
+}
+.checkboxx input{
+    width: 20px;
+    height: 20px;
+   margin: 0px 0px 0px 390px;
+}
